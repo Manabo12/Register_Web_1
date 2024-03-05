@@ -15,11 +15,14 @@ console.warn("WARNENGGG!!");
 
 //DECLARATION OF VARIABLES
 
-let name =`Dinsin`;
-lastname = 'Manabo'
-age = 18;
-isProf = true;
-hobbies = ["Sleeping"];
+let name = "Dinsin",
+lastname = `Manabo`,
+age = 18,
+isProf = true,
+hobbies = ["Sleeping", "Play Video Games"],
+run = function () {
+    console.log("I'm sleeping");
+}
 console.log(name, age, isProf, hobbies);
 console.table(hobbies);
 console.log("My name is" + name + " " + lastname);
